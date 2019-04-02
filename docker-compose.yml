@@ -50,7 +50,7 @@ services:
     volumes:
       - ./:/var/www/html
     ports:
-      - "80:80"
+      - "8000:80"
 
   redis:
     container_name: "labimus_redis"
@@ -66,4 +66,4 @@ services:
       PHP_UPLOAD_MAX_FILESIZE: 5G
       PHP_MAX_INPUT_VARS: 5G
     ports:
-      - "4411:80"
+      - "7777:80"
