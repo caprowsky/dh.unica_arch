@@ -52,9 +52,9 @@ services:
     ports:
       - "8000:80"
 
-  redis:
-    container_name: "labimus_redis"
-    image: wodby/redis:3.2-2.0.1
+#  redis:
+#    container_name: "labimus_redis"
+#    image: wodby/redis:3.2-2.0.1
 
   pma:
     container_name: "labimus_pma"
