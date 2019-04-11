@@ -69,6 +69,7 @@ services:
       - "7777:80"
 
   adminer:
+    container_name: "labimus_adminer"
     image: adminer
     ports:
       - "8080:8080"
